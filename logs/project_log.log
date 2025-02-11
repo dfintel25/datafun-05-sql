@@ -51,3 +51,41 @@
 2025-02-10 21:01:05.517 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
 2025-02-10 21:01:05.518 | INFO     | __main__:main:60 - Database setup completed successfully.
 2025-02-10 21:01:05.518 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 21:05:57.529 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:05:57.530 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 21:05:57.531 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:05:57.531 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 21:05:57.532 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-10 21:06:08.521 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:06:08.522 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 21:06:08.523 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:06:08.532 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 21:06:08.540 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 21:06:08.548 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-10 21:06:08.548 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-10 21:06:08.550 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 21:06:12.627 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:06:12.627 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 21:06:12.628 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:06:12.628 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 21:06:12.629 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-10 21:06:58.631 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:06:58.631 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 21:06:58.632 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:06:58.633 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 21:06:58.633 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-10 21:14:04.380 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:14:04.380 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 21:14:04.381 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:14:04.382 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 21:14:04.382 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-10 21:15:33.397 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:15:33.398 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 21:15:33.399 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:15:33.399 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 21:15:33.400 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-10 21:18:18.433 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:18:18.433 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-10 21:18:18.434 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:18:18.435 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-10 21:18:18.435 | INFO     | __main__:main:63 - Database connection closed.
