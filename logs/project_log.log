@@ -89,3 +89,19 @@
 2025-02-10 21:18:18.434 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
 2025-02-10 21:18:18.435 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
 2025-02-10 21:18:18.435 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-10 21:21:59.249 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:21:59.250 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 21:21:59.251 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:21:59.257 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 21:21:59.276 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 21:21:59.286 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-10 21:21:59.286 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-10 21:21:59.287 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 21:22:30.667 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:22:30.667 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 21:22:30.668 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:22:30.676 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 21:22:30.691 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 21:22:30.700 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-10 21:22:30.700 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-10 21:22:30.701 | INFO     | __main__:main:65 - Database connection closed.
