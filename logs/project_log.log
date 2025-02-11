@@ -31,3 +31,23 @@
 2025-02-10 20:37:45.611 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
 2025-02-10 20:37:45.611 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
 2025-02-10 20:37:45.611 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 20:53:46.730 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 20:53:46.730 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 20:53:46.731 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 20:53:46.731 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:53:46.732 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:53:46.732 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 20:56:35.802 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 20:56:35.803 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 20:56:35.804 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 20:56:35.804 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:56:35.805 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:56:35.805 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 21:01:05.499 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 21:01:05.500 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 21:01:05.501 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 21:01:05.502 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 21:01:05.511 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 21:01:05.517 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-10 21:01:05.518 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-10 21:01:05.518 | INFO     | __main__:main:65 - Database connection closed.
