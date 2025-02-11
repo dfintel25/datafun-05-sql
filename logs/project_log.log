@@ -12,3 +12,22 @@
 2025-02-10 18:55:17.163 | ERROR    | __main__:log_example:54 - This is an example error message.
 2025-02-10 18:55:17.163 | INFO     | __main__:main:66 - View the log output at logs\project_log.log
 2025-02-10 18:55:17.164 | INFO     | __main__:main:67 - EXITING utils_logger.py.
+2025-02-10 20:36:48.624 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 20:36:48.625 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 20:36:48.626 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 20:36:48.626 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:36:48.627 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:36:48.629 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-10 20:37:40.379 | INFO     | __main__:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 20:37:40.380 | INFO     | __main__:main:61 - STARTING utils_logger.py
+2025-02-10 20:37:40.380 | INFO     | __main__:log_example:52 - This is an example info message.
+2025-02-10 20:37:40.380 | WARNING  | __main__:log_example:53 - This is an example warning message.
+2025-02-10 20:37:40.380 | ERROR    | __main__:log_example:54 - This is an example error message.
+2025-02-10 20:37:40.380 | INFO     | __main__:main:66 - View the log output at logs\project_log.log
+2025-02-10 20:37:40.381 | INFO     | __main__:main:67 - EXITING utils_logger.py.
+2025-02-10 20:37:45.609 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 20:37:45.609 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 20:37:45.610 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 20:37:45.611 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:37:45.611 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-10 20:37:45.611 | INFO     | __main__:main:65 - Database connection closed.
