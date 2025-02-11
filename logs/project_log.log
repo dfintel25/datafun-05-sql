@@ -5,3 +5,10 @@
 2025-02-10 18:42:44.676 | ERROR    | __main__:log_example:54 - This is an example error message.
 2025-02-10 18:42:44.677 | INFO     | __main__:main:66 - View the log output at logs\project_log.log
 2025-02-10 18:42:44.677 | INFO     | __main__:main:67 - EXITING utils_logger.py.
+2025-02-10 18:55:17.162 | INFO     | __main__:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 18:55:17.162 | INFO     | __main__:main:61 - STARTING utils_logger.py
+2025-02-10 18:55:17.163 | INFO     | __main__:log_example:52 - This is an example info message.
+2025-02-10 18:55:17.163 | WARNING  | __main__:log_example:53 - This is an example warning message.
+2025-02-10 18:55:17.163 | ERROR    | __main__:log_example:54 - This is an example error message.
+2025-02-10 18:55:17.163 | INFO     | __main__:main:66 - View the log output at logs\project_log.log
+2025-02-10 18:55:17.164 | INFO     | __main__:main:67 - EXITING utils_logger.py.
