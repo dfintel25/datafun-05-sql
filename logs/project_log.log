@@ -105,3 +105,16 @@
 2025-02-10 21:22:30.700 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
 2025-02-10 21:22:30.700 | INFO     | __main__:main:60 - Database setup completed successfully.
 2025-02-10 21:22:30.701 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 14:50:05.008 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 14:50:05.008 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 14:50:05.010 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 14:50:05.022 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 14:50:05.037 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 14:50:05.049 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-14 14:50:05.051 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-14 14:50:05.052 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 14:50:08.864 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 14:50:08.865 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 14:50:08.866 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 14:50:08.866 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-14 14:50:08.866 | INFO     | __main__:main:63 - Database connection closed.
