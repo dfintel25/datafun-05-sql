@@ -8,19 +8,32 @@ db_file_path = pathlib.Path("project.db")
 queries_folder = pathlib.Path("sql_queries")
 
 # Function to execute a single SQL query and return the result as a DataFrame
-def execute_sql_query(db_path, sql_query):
+def execute_sql_query(db_file_path, sql_query):
     try:
-        with sqlite3.connect(db_path) as conn:
+        with sqlite3.connect(db_file_path) as conn:
+            # Execute query and check if there are results
             df = pd.read_sql_query(sql_query, conn)
-            print(f"Executed query successfully!")
+            
+            # If the DataFrame is empty, print a warning
+            if df.empty:
+                print("Query executed successfully but no data was returned.")
+            else:
+                print(f"Executed query successfully!")
+            
             return df
     except sqlite3.Error as e:
         print(f"Error executing query: {e}")
+        return None
+    except Exception as e:
+        print(f"Unexpected error: {e}")
         return None
 
 # Function to read and split queries in the SQL file
 def read_sql_file(sql_file_path):
     try:
+        if not sql_file_path.exists():
+            print(f"Error: The SQL file '{sql_file_path}' does not exist.")
+            return []
         with open(sql_file_path, "r") as file:
             sql_query = file.read().strip()
             # Split the queries based on the semicolon delimiter
@@ -33,6 +46,10 @@ def read_sql_file(sql_file_path):
 # Function to plot the results of a query (for aggregation and grouping)
 def plot_query_results(df, title):
     try:
+        # Check if the DataFrame has more than one numeric column
+        if df.shape[1] < 2:
+            print(f"Error: The result does not have sufficient numeric columns for plotting.")
+            return
         df.plot(kind='bar', x=df.columns[0], y=df.columns[1:], legend=True)
         plt.title(title)
         plt.xlabel(df.columns[0])
