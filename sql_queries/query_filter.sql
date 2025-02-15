@@ -6,6 +6,6 @@ FROM books
 WHERE year_published > 2010;
 
 -- Get authors born before 1950
-SELECT name, birth_year
+SELECT author_id, birth_year
 FROM authors
 WHERE birth_year < 1950;

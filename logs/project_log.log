@@ -178,3 +178,183 @@
 2025-02-14 18:42:31.119 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: no such column: last_name
 2025-02-14 18:42:31.119 | ERROR    | __main__:main:60 - Error during feature queries execution: no such column: last_name
 2025-02-14 18:42:31.119 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:20:19.142 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:20:19.142 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:20:19.143 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:20:19.149 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 19:20:19.154 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 19:20:19.158 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-14 19:20:19.158 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-14 19:20:19.158 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:20:22.130 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:20:22.130 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:20:22.131 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:20:22.132 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:20:22.132 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: no such column: last_name
+2025-02-14 19:20:22.132 | ERROR    | __main__:main:60 - Error during feature queries execution: no such column: last_name
+2025-02-14 19:20:22.132 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:21:59.529 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:21:59.529 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:21:59.530 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:21:59.530 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:21:59.531 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:21:59.531 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:21:59.531 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:22:26.070 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:22:26.070 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:22:26.071 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:22:26.072 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:22:26.072 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:22:26.072 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:22:26.073 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:22:44.422 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:22:44.422 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:22:44.423 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:22:44.424 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:22:44.424 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: unrecognized token: ":"
+2025-02-14 19:22:44.424 | ERROR    | __main__:main:60 - Error during feature queries execution: unrecognized token: ":"
+2025-02-14 19:22:44.425 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:23:03.589 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:23:03.589 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:23:03.590 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:23:03.591 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:23:03.591 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:23:03.591 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:23:03.592 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:23:55.769 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:23:55.769 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:23:55.770 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:23:55.771 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:23:55.772 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:23:55.772 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:23:55.772 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:24:30.365 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:24:30.366 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:24:30.366 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:24:30.368 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:24:30.368 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:24:30.368 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:24:30.369 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:25:34.019 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:25:34.020 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:25:34.021 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:25:34.022 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:25:34.022 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:25:34.022 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:25:34.023 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:25:49.751 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:25:49.751 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:25:49.751 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:25:49.753 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:25:49.753 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:25:49.754 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:25:49.754 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:26:50.622 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:26:50.623 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:26:50.623 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:26:50.624 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:26:50.625 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:26:50.625 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:26:50.625 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:31:26.414 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:31:26.415 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:31:26.415 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:31:26.416 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:31:26.417 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:31:26.417 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:31:26.417 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:35:39.199 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:35:39.199 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:35:39.200 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:35:39.200 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-14 19:35:39.200 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-02-14 19:35:39.201 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:36:09.259 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:36:09.260 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:36:09.260 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:36:09.266 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 19:36:09.270 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 19:36:09.271 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql: table authors has no column named author_name
+2025-02-14 19:36:09.271 | ERROR    | __main__:main:62 - Error during database setup: table authors has no column named author_name
+2025-02-14 19:36:09.271 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:36:35.972 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:36:35.973 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:36:35.973 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:36:35.980 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 19:36:35.985 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 19:36:35.985 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql: table authors has no column named author
+2025-02-14 19:36:35.986 | ERROR    | __main__:main:62 - Error during database setup: table authors has no column named author
+2025-02-14 19:36:35.986 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:37:09.654 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:37:09.654 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:37:09.655 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:37:09.662 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 19:37:09.666 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 19:37:09.667 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql: table authors has no column named first
+2025-02-14 19:37:09.667 | ERROR    | __main__:main:62 - Error during database setup: table authors has no column named first
+2025-02-14 19:37:09.667 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:38:17.491 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:38:17.492 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:38:17.493 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:38:17.499 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 19:38:17.503 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 19:38:17.503 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql: table authors has no column named author_name
+2025-02-14 19:38:17.504 | ERROR    | __main__:main:62 - Error during database setup: table authors has no column named author_name
+2025-02-14 19:38:17.504 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:39:02.789 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:39:02.789 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-14 19:39:02.790 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:39:02.797 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-14 19:39:02.800 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-14 19:39:02.804 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-14 19:39:02.804 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-14 19:39:02.804 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-14 19:39:08.322 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:39:08.322 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:39:08.323 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:39:08.324 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:39:08.324 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:39:08.324 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:39:08.325 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:40:14.584 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:40:14.584 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:40:14.585 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:40:14.586 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:40:14.586 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:40:14.586 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:40:14.586 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:40:28.461 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:40:28.461 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:40:28.462 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:40:28.463 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:40:28.463 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:40:28.463 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:40:28.464 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:40:38.627 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:40:38.627 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:40:38.628 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:40:38.629 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:40:38.629 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:40:38.629 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:40:38.629 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:40:48.831 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:40:48.831 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:40:48.832 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:40:48.833 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:40:48.833 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:40:48.833 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:40:48.833 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:40:58.285 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:40:58.286 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:40:58.286 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:40:58.287 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:40:58.288 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\update_records.sql: near ".": syntax error
+2025-02-14 19:40:58.288 | ERROR    | __main__:main:60 - Error during feature queries execution: near ".": syntax error
+2025-02-14 19:40:58.288 | INFO     | __main__:main:63 - Database connection closed.
+2025-02-14 19:41:30.706 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-14 19:41:30.706 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-14 19:41:30.707 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-14 19:41:30.708 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-14 19:41:30.708 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\update_records.sql
+2025-02-14 19:41:30.708 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-02-14 19:41:30.709 | INFO     | __main__:main:63 - Database connection closed.
