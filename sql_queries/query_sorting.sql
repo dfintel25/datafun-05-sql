@@ -1,9 +1,9 @@
 -- query_sorting.sql
 
 -- Get all books ordered by publication year (ascending)
-SELECT title, publication_year
+SELECT title, year_published
 FROM books
-ORDER BY publication_year ASC;
+ORDER BY year_published ASC;
 
 -- Get authors ordered by their birth year (descending)
 SELECT name, birth_year

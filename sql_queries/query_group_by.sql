@@ -7,7 +7,7 @@ LEFT JOIN books ON authors.author_id = books.author_id
 GROUP BY authors.name;
 
 -- Get the average publication year of books per author
-SELECT authors.name, AVG(books.publication_year) AS avg_year
+SELECT authors.name, AVG(books.year_published) AS avg_year
 FROM authors
 LEFT JOIN books ON authors.author_id = books.author_id
 GROUP BY authors.name;

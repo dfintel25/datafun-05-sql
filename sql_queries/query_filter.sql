@@ -1,9 +1,9 @@
 -- query_filter.sql
 
 -- Get books published after 2010
-SELECT title, publication_year
+SELECT title, year_published
 FROM books
-WHERE publication_year > 2010;
+WHERE year_published > 2010;
 
 -- Get authors born before 1950
 SELECT name, birth_year
