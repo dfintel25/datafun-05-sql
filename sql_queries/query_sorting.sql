@@ -6,6 +6,6 @@ FROM books
 ORDER BY year_published ASC;
 
 -- Get authors ordered by their birth year (descending)
-SELECT author.id, birth_year
-FROM authors
-ORDER BY birth_year DESC;
+--SELECT author.id, birth_year
+--FROM authors
+--ORDER BY birth_year DESC;
